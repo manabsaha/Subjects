@@ -1,0 +1,9 @@
+      i=3
+      j=8
+      k=4
+      a=j/k+1-j/i*k
+      b=i/j*k
+      c=3*j/i*k-4/j
+      write(*,*)b,c,a
+      stop 
+      end
