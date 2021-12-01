@@ -1,4 +1,13 @@
+1: fork, execv
+2: algorithms
+3. signal, raise, kill
+4. pipe
+5. mkfifo - named pipe
+6. shared memory, clock time
+10. message passing
+--------------
 Assignment 1(a)
+Fork, execv
 --------------
 #include<stdio.h>
 #include<stdlib.h>
@@ -106,6 +115,7 @@ int main(){
 }
 
 Assignment 3(a)
+signal,raise,kill
 -------------
 #include<stdio.h>
 #include<stdlib.h>
@@ -232,6 +242,7 @@ int main(){
 }
 
 Assignment 4(a)
+pipe 
 -------------
 #include<stdio.h>
 #include<stdlib.h>
@@ -324,6 +335,7 @@ int main(){
 }
 
 Assignment 5(a)
+named pipe 
 -------------
 #include <stdio.h>
 #include <string.h>
@@ -424,6 +436,7 @@ int main()
 }
 
 Assignment 6(a_1)
+shared memory
 -------------
 #include <stdio.h>
 #include <sys/ipc.h>
@@ -480,6 +493,7 @@ int main()
 }
 
 Assignment 6(b)
+clock time
 -------------
 #include <stdio.h>
 #include <sys/types.h>
